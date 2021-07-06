@@ -80,8 +80,8 @@
                     <a class="w-64 h-20" href="#"><img src="src/pricingbtn.png" alt=""></a>
                 </div>
             </div>
-            <div class="flex flex-wrap justify-end w-9/12">
-                <img src="src/Laptop1.png" class="w-full h-full" alt="">
+            <div class="flex flex-wrap justify-end w-9/12 h-auto mt-22">
+                <img src="src/Laptop1.png" class="" alt="">
             </div>
         </section>
     </header>
@@ -115,12 +115,11 @@
         
         </div>
     </section>
-    
     <footer class="bg-cover flex flex-col w-screen h-96 bg-fixed p-6" style="background-image: url(src/footerbg.png);">
         <div class="flex items-start justify-start">
-            <img src="src/logo.png" class="h-16 w-auto" alt="">
+            <img src="src/logo.png" class="h-12" alt="">
         </div>
-        <div class="grid grid-cols-4 m-10">
+        <div class="grid md:grid-cols-4 grid-cols-1 m-10">
             <div>
                 <div class="flex flex-col space-y-4">
                     <h1 class="text-blue-500 text-2xl uppercase">The Company</h1>
@@ -153,9 +152,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="border-2-2 absolute border-blue-500 h-56 border" style="left: 50%"></div>
+            <div class="border-2-2 absolute border-blue-500 h-56 border hidden md:block" style="left: 50%"></div>
             <div class="md:col-span-2">
-                <div class="flex flex-row justify-center items-center h-full w-full space-x-4">
+                <div class="flex flex-col md:flex-row justify-center items-center h-full w-full space-x-4">
                     <a href="#"><i class="fas fa-phone-alt text-2xl text-blue-500"></i></a>
                     <a href="#"><i class="fas fa-map-marker-alt text-2xl text-blue-500"></i></a>
                     <a href="#"><i class="far fa-envelope text-2xl text-blue-500"></i></a>
@@ -165,7 +164,11 @@
                 </div>
             </div>
         </div>
+        <div class="flex flex-wrap justify-end items-end">
+            <img src="src/©thinkbigcreatives2021.png" alt="">
+        </div>
     </footer>
+  
     <script>
         function toggleElement(elemID) {
                 document.getElementById(elemID).classList.toggle('hidden');
